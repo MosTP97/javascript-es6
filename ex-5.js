@@ -1,4 +1,5 @@
-function sum() {
+function sum(...result1) {
+  return result1.reduce((arr,cur)=>{ return arr = arr+cur},0)
   // Start coding here !
 }
 
